@@ -1,0 +1,52 @@
+/* *{border: 2px solid red;} */
+body{
+    background-color: rgb(223, 231, 231);
+}
+.main{
+    text-align: center;
+    margin-top: 250px;
+}
+.number{
+    display: flex;
+    justify-content: center;
+}
+.number .one,.two,.three,.four{
+width: 20px;
+height: 20px;
+border-radius: 50%;
+list-style: none;
+}
+.two,.three,.four{
+    border: 2px solid gray;
+}
+.firstSp,.secSp,.thirdSp{
+    margin-top: 10px;
+    width: 140px;
+    height: 2px;
+    background-color: gray;
+    list-style: none;
+    }
+  
+
+.buttons{
+    margin-top: 50px;
+}
+button{
+    color: white;
+    background:rgb(16, 132, 204); ;
+    padding: 7px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+li.activeNUM{
+    border: 2px solid rgb(16, 132, 204);
+}
+.activeSPA{
+    background:rgb(16, 132, 204); 
+}
+.disable{
+   cursor: default;
+    background-color: rgb(183, 181, 181);
+}
